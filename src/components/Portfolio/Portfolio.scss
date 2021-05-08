@@ -1,0 +1,49 @@
+@import "./../../variables.scss";
+
+.portfolio {
+	margin-top: 10rem;
+	&-header {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		&-left {
+			.heading {
+				line-height: 1;
+			}
+			.subheading {
+				text-transform: uppercase;
+				color: rgb(255, 175, 188);
+				margin-bottom: 1rem;
+			}
+		}
+		&-right {
+			.link-container {
+				display: flex;
+				align-items: center;
+				.link {
+					text-decoration: underline;
+					span {
+						color: rgb(255, 126, 148);
+						text-decoration: underline rgb(255, 126, 148);
+					}
+				}
+				.link-icon {
+					color: rgb(255, 126, 148);
+					font-size: 24px;
+					margin-left: 0.8rem;
+				}
+			}
+		}
+	}
+	.img-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 3rem auto 0 auto;
+		justify-content: space-between;
+		.img {
+			margin: 2rem 0;
+			width: 30%;
+			border-radius: 0.8rem;
+		}
+	}
+}

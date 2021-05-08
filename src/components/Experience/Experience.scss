@@ -1,0 +1,22 @@
+.experience {
+	.head {
+		text-align: center;
+	}
+	.company-wrapper {
+		margin: 3rem auto;
+		display: flex;
+		justify-content: space-between;
+		h3 {
+			color: rgb(177, 177, 177);
+			text-align: center;
+			padding: 2rem 2.5rem;
+			margin: 0 1rem;
+			border-radius: 0.5rem;
+			&:hover {
+				color: black;
+				box-shadow: 4px 4px 24px 9px rgba(238, 238, 238, 0.75);
+				transition: all 0.2s ease-out;
+			}
+		}
+	}
+}

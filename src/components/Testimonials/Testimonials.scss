@@ -1,0 +1,15 @@
+.testimonial {
+	margin: 7rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.card-container {
+		width: 50%;
+	}
+	.head {
+		width: 40%;
+		.subheading {
+			text-transform: uppercase;
+		}
+	}
+}
